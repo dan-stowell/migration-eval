@@ -10,3 +10,6 @@
 [submodule "repos/httpie-cli"]
 	path = repos/httpie-cli
 	url = git@github.com:dan-stowell/httpie-cli.git
+[submodule "repos/yt-dlp"]
+	path = repos/yt-dlp
+	url = git@github.com:dan-stowell/yt-dlp.git
