@@ -13,3 +13,6 @@
 [submodule "repos/yt-dlp"]
 	path = repos/yt-dlp
 	url = git@github.com:dan-stowell/yt-dlp.git
+[submodule "repos/neovim"]
+	path = repos/neovim
+	url = git@github.com:dan-stowell/neovim.git
