@@ -1,0 +1,9 @@
+[submodule "repos/ninja"]
+	path = repos/ninja
+	url = https://github.com/dan-stowell/ninja.git
+[submodule "repos/htop"]
+	path = repos/htop
+	url = https://github.com/dan-stowell/htop.git
+[submodule "repos/ripgrep"]
+	path = repos/ripgrep
+	url = https://github.com/dan-stowell/ripgrep.git
