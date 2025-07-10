@@ -26,8 +26,9 @@ if [ ! -f "$input_file" ]; then
     exit 1
 fi
 
-# Clean ANSI escape codes
+# Clean ANSI escape codes and filter out "Thinking" messages
 sed 's/\x1b\[[0-9;]*[mGKH]//g' "$input_file" | \
+grep -v "Thinking" | \
 sed 's/\x1b\[[?][0-9;]*[hlc]//g' | \
 sed 's/\x1b\[[0-9;]*[ABCD]//g' | \
 sed 's/\x1b\[[0-9;]*[J]//g' | \
