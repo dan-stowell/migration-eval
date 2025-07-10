@@ -7,3 +7,6 @@
 [submodule "repos/ripgrep"]
 	path = repos/ripgrep
 	url = https://github.com/dan-stowell/ripgrep.git
+[submodule "repos/httpie-cli"]
+	path = repos/httpie-cli
+	url = git@github.com:dan-stowell/httpie-cli.git
