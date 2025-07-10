@@ -16,3 +16,6 @@
 [submodule "repos/neovim"]
 	path = repos/neovim
 	url = git@github.com:dan-stowell/neovim.git
+[submodule "repos/xonsh"]
+	path = repos/xonsh
+	url = git@github.com:dan-stowell/xonsh.git
